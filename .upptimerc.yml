@@ -12,6 +12,10 @@ sites:
     slug: website
     url: https://www.playfuni.net
 
+  - name: DavidBuy
+    slug: davidbuy
+    url: https://davidbuy.com
+
   - name: FunI Payment Bot
     slug: funipay-bot
     url: https://discord.com/api/guilds/1290755665005903942/widget.json
