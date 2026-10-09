@@ -1,7 +1,7 @@
-url: https://sr-api.sfirew.com/server/playfuni.net
-status: down
+url: https://www.doomhosting.com/api/query/minecraft?host=playfuni.net
+status: up
 code: 200
-responseTime: 93
-lastUpdated: 2026-10-09T08:50:54.203Z
+responseTime: 6611
+lastUpdated: 2026-10-09T09:18:41.961Z
 startTime: 2026-10-09T08:50:41.579Z
 generator: Upptime <https://github.com/upptime/upptime>
