@@ -5,7 +5,7 @@ user-agent: HappyGroupHub
 sites:
   - name: Minecraft Server
     slug: minecraft
-    url: https://sr-api.sfirew.com/server/playfuni.net
+    url: https://www.doomhosting.com/api/query/minecraft?host=playfuni.net
     __dangerous__body_down_if_text_missing: '"online":true'
 
   - name: Official Website
