@@ -1,31 +1,61 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: HappyGroupHub
+repo: playfuni-status-data
+user-agent: HappyGroupHub
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Minecraft Server
+    slug: minecraft
+    url: https://sr-api.sfirew.com/server/playfuni.net
+    __dangerous__body_down_if_text_missing: '"online":true'
 
-status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  - name: Official Website
+    slug: website
+    url: https://www.playfuni.net
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+  - name: FunI Payment Bot
+    slug: funipay-bot
+    url: https://discord.com/api/guilds/1290755665005903942/widget.json
+    __dangerous__body_down_if_text_missing: '"username":"FunI \u4ed8\u6b3e\u7cfb\u7d71"'
+
+  - name: FunI Payment API
+    slug: funipay-api
+    url: https://api.funipay.net/
+    expectedStatusCodes: [200, 404]
+    __dangerous__body_down_if_text_missing: 'Not Found'
+
+  - name: CarTunes Web
+    slug: cartunes-web
+    url: https://cartunes.playfuni.net
+
+  - name: CarTunes LINE Bot
+    slug: cartunes-linebot
+    url: https://linebot.playfuni.net/cartunes/
+    expectedStatusCodes: [200, 404, 405]
+    __dangerous__body_down_if_text_missing: '"detail"'
+
+  - name: CarTunes API
+    slug: cartunes-api
+    url: https://api.playfuni.net/cartunes/
+    __dangerous__body_down_if_text_missing: '"service":"CarTunes API"'
+
+  - name: LINE Discord Sync (LINE)
+    slug: sync-line
+    url: https://linebot.playfuni.net/discord-backup/
+    expectedStatusCodes: [200, 404, 405]
+
+  - name: LINE Discord Sync (Discord)
+    slug: sync-discord
+    url: https://discord.com/api/guilds/1290755665005903942/widget.json
+    __dangerous__body_down_if_text_missing: '"username":"\u8a0a\u606f\u540c\u6b65\u6a5f\u5668\u4eba"'
+
+  - name: TWQR Generator
+    slug: twqr
+    url: https://twqr-generator.playfuni.net
+
+  - name: 1365 Poker House
+    slug: poker
+    url: https://poker.playfuni.net
+
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+skipHomepageUpdate: true
