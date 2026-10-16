@@ -1,7 +1,7 @@
 url: https://api.funipay.net/
-status: down
-code: 502
-responseTime: 180
-lastUpdated: 2026-10-16T09:26:34.072Z
+status: up
+code: 404
+responseTime: 647
+lastUpdated: 2026-10-16T14:08:21.811Z
 startTime: 2026-10-09T08:50:57.175Z
 generator: Upptime <https://github.com/upptime/upptime>
