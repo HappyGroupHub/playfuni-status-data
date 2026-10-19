@@ -1,7 +1,7 @@
 url: https://www.doomhosting.com/api/query/minecraft?host=playfuni.net
-status: up
+status: down
 code: 200
-responseTime: 6593
-lastUpdated: 2026-10-19T00:37:33.342Z
+responseTime: 370
+lastUpdated: 2026-10-19T14:45:48.697Z
 startTime: 2026-10-09T08:50:41.579Z
 generator: Upptime <https://github.com/upptime/upptime>
