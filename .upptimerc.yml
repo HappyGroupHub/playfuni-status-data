@@ -27,6 +27,10 @@ sites:
     expectedStatusCodes: [200, 404]
     __dangerous__body_down_if_text_missing: 'Not Found'
 
+  - name: FunI Payment Dashboard
+    slug: funipay-dashboard
+    url: https://dashboard.funipay.net
+
   - name: CarTunes Web
     slug: cartunes-web
     url: https://cartunes.playfuni.net
@@ -55,6 +59,10 @@ sites:
   - name: TWQR Generator
     slug: twqr
     url: https://twqr-generator.playfuni.net
+
+  - name: FingerWHO
+    slug: fingerwho
+    url: https://fingerwho.playfuni.net
 
   - name: 1365 Poker House
     slug: poker
