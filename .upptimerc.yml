@@ -16,6 +16,10 @@ sites:
     slug: davidbuy
     url: https://davidbuy.com
 
+  - name: FunI Payment Website
+    slug: funipay-website
+    url: https://funipay.net
+
   - name: FunI Payment Bot
     slug: funipay-bot
     url: https://discord.com/api/guilds/1290755665005903942/widget.json
@@ -30,6 +34,10 @@ sites:
   - name: FunI Payment Dashboard
     slug: funipay-dashboard
     url: https://dashboard.funipay.net
+
+  - name: FunI Payment Docs
+    slug: funipay-docs
+    url: https://docs.funipay.net
 
   - name: CarTunes Web
     slug: cartunes-web
