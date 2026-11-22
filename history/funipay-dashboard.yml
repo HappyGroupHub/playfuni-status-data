@@ -1,7 +1,7 @@
 url: https://dashboard.funipay.net
-status: up
-code: 200
-responseTime: 867
-lastUpdated: 2026-11-22T02:45:15.176Z
+status: down
+code: 502
+responseTime: 550
+lastUpdated: 2026-11-22T22:47:03.965Z
 startTime: 2026-10-21T19:56:35.867Z
 generator: Upptime <https://github.com/upptime/upptime>
